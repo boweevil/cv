@@ -48,9 +48,9 @@ profile: |
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Senior DevOps Engineer
+    time: 2021-Present
+    company: Torqata Data & Analytics
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -58,11 +58,11 @@ experience:
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
       fugiat nulla pariatur.
     technologies_used: |
-      Go, Angular, Typescript, C++
+      Kubernetes, GCP, Docker, Terraform, Python, Bash, Ansible, Linux
 
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: Senior DevOps Engineer
+    time: 2020-2021
+    company: Trader Interactive
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -70,38 +70,88 @@ experience:
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
       fugiat nulla pariatur.
     technologies_used: |
-      Python, Tensorflow, Keras, Matlab
+      AWS, Docker, Terraform, Python, Bash, Ansible, Linux
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
-
-projects:
-  - title: Cool Project
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-
-  - title: Cool Project
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
+  - role: DevOps Team Lead
+    time: 2018-2020
+    company: Trader Interactive
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur.
+    technologies_used: |
+      AWS, Docker, Terraform, Python, Bash, Ansible, Linux
+
+  - role: DevOps Engineer
+    time: 2015-2018
+    company: Trader Interactive
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur.
+    technologies_used: |
+      AWS, Docker, Python, Bash, Linux
+
+  - role: DevOps Engineer
+    time: 2014-2015
+    company: Dominion Enterprises
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur.
+    technologies_used: |
+      AWS, Docker, VMWare, Platform 9, Bash, Linux
+
+  - role: Senior Linux Systems Engineer
+    time: 2014-2014
+    company: Enterprise Information Services, Inc
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur.
+    technologies_used: |
+      AWS, Docker, VMWare, Platform 9, Bash, Linux
+
+  - role: Linux Systems Engineer
+    time: 2012-2014
+    company: Enterprise Information Services, Inc
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur.
+    technologies_used: |
+      AWS, Docker, VMWare, Platform 9, Bash, Linux
+
+  - role: PC Systems Specialist
+    time: 2009-2012
+    company: Enterprise Information Services, Inc
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur.
+    technologies_used: |
+      AWS, Docker, VMWare, Platform 9, Bash, Linux
+
+  - role: Help Desk Coordinator
+    time: 2007-2009
+    company: Enterprise Information Services, Inc
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+      fugiat nulla pariatur.
+    technologies_used: |
+      AWS, Docker, VMWare, Platform 9, Bash, Linux
