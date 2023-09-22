@@ -2,10 +2,10 @@
 {% if certifications %}
 <section class="certifications">
     <div class="title">Certifications</div>
-    {% for ed in certifications %}
+    {% for cert in certifications %}
         <div class="certifications-item">
-            <div class="cert">{{ed.degree}}</div>
-            <div class="date">{{ed.time}}</div>
+            <div class="certificate">{{cert.certificate}}</div>
+            <div class="date">{{cert.date}}</div>
         </div>
     {% endfor %}
 </section>

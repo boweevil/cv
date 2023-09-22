@@ -1,14 +1,14 @@
 name: Jason Carpenter
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
   email: jason@jasoncarpenter.me
   github: boweevil
+  gitlab: boweevil
   linkedin: jason-carpenter-57ab24188
   phone:
-  gitlab: boweevil
   twitter:
 
 languages:
@@ -16,8 +16,20 @@ languages:
   - idiom: Portuguese
 
 certifications:
-  - name: Certified Kubernetes Administrator (CKA)
-    date: December 15, 2022
+  - certificate: CKA
+    date: December 15 2022
+
+  - certificate: RHCE
+    date: December 15 2009
+
+education:
+  - degree: MSc in Informatics
+    time: 2014-2016
+    university: Ionian University
+
+  - degree: BSc in Computer Science
+    time: 2010-2014
+    university: Ionian University
 
 skills:
   - category: Programming
