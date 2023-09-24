@@ -1,24 +1,281 @@
----
-layout: default
----
-<div class="container">
-  {% include header.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Styles -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>CV | A jekyll template</title>
+</head>
+<body>
+  <div class="container">
+  <div class="header">
+    <h1 class="title">Jason Carpenter</h1>
+      <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
+      <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
+  </div>
   <div class="container-block">
     <div class="sidebar">
-      {% include contact.html %}
-      {% include languages.html %}
-      {% include certifications.html %}
-      {% include education.html %}
-      {% include skills.html %}
-      {% include fork.html %}
-    </div>
+        <section class="contact">
+            <div class="title">Contact</div>
+                <div class="contact-item">
+                    <i data-feather="mail"></i>
+                    <a href="#">
+                        jason@jasoncarpenter.me
+                    </a>
+                </div>
 
+                <div class="contact-item">
+                    <i data-feather="github"></i>
+                    <a href="https://github.com/boweevil">
+                        boweevil
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <i data-feather="gitlab"></i>
+                    <a href="https://gitlab.com/boweevil">
+                        boweevil
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <i data-feather="linkedin"></i>
+                    <a href="https://linkedin.com/in/jason-carpenter-57ab24188">
+                        jason-carpenter-57ab24188
+                    </a>
+                </div>
+        </section>
+
+        <section class="languages">
+            <div class="title">Languages</div>
+                <div class="idiom">English</div>
+                <div class="idiom">Portuguese</div>
+        </section>
+
+        <section class="certifications">
+            <div class="title">Certifications</div>
+                <div class="certifications-item">
+                    <div class="certificate">CKA</div>
+                    <div class="date">December 15 2022</div>
+                    <div class="certificate-id">ID: LF-e22dxuchoz</div>
+                </div>
+
+                <div class="certifications-item">
+                    <div class="certificate">RHCSA (expired)</div>
+                    <div class="date">September 24, 2010</div>
+                    <div class="certificate-id">ID: 100-212-331</div>
+                </div>
+        </section>
+
+        <section class="skills">
+                <div class="title">Programming skills</div>
+                    <div class="skill">Python</div>
+                    <div class="skill">Go</div>
+                    <div class="skill">Bash</div>
+
+                <div class="title">DevOps skills</div>
+                    <div class="skill">Docker</div>
+                    <div class="skill">Kubernetes</div>
+                    <div class="skill">Terraform</div>
+                    <div class="skill">Ansible</div>
+                    <div class="skill">AWS</div>
+                    <div class="skill">GCP</div>
+
+                <div class="title">Systems Engineering skills</div>
+                    <div class="skill">Linux</div>
+                    <div class="skill">HP UX</div>
+                    <div class="skill">BSD</div>
+                    <div class="skill">MacOS</div>
+                    <div class="skill">Windows</div>
+        </section>
+
+    </div>
     <div class="main">
-      {% include career-profile.html %}
-      {% include experience.html %}
-      {% include publications.html %}
-      {% include projects.html %}
-      {% include volunteering.html %}
+        <section class="career-profile">
+            <h2 class="title">Career Profile</h2>
+            <div class="details">I'm a DevOps Engineer with over nine years of experience and over 15 years total IT experience.</div>
+        </section>
+
+        <section class="experiance">
+            <h2 class="title">Experience</h2>
+                <div class="experience-item">
+                    <div class="role">
+                        Senior DevOps Engineer
+                    </div>
+                    <div class="company">
+                        Torqata Data & Analytics
+                        <span class="time">6/2021-Present</span>
+                    </div>
+                    <div class="details">Manage shared infrastructure in GCP, builds and deployments via Jenkins and GitHub Actions, automation tools 
+                                        around user management, application artifacts and container image, and the Kubernetes infrastructure deployed 
+                                        on GKE.
+                    </div>
+                    <p class="technologies">Technologies Used: Kubernetes, GCP, Docker, Terraform, Python, Bash, Ansible, Linux</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="role">
+                        Senior DevOps Engineer
+                    </div>
+                    <div class="company">
+                        Trader Interactive
+                        <span class="time">6/2020-6/2021</span>
+                    </div>
+                    <div class="details">Build out and manage scaling, fault tolerant environments in AWS using Terraform, AWS CloudFormation, 
+                                        Ansible, Python, and AWS CLI.  Deploy and manage AWS Fargate clusters for Node.js or PHP applications. 
+                                        Create and maintain Jenkins jobs to automate the releases using CloudFormation, AWS CLI or Ansible.  
+                                        Write tools for managing assets across multiple AWS subscriptions.  Monitor performance using NewRelic,
+                                        CloudHealth, or CloudWatch. Serve as a member of the Engineering Steering Committee and Live-Site Tracking 
+                                        Committee. Provide training to team members.  Respond to, troubleshoot, and mitigate on-call production 
+                                        events.  Use git, GitHub, and GitLab for managing code between multiple teams.  Manage users, groups and 
+                                        permissions on repositories in GitHub and GitLab.    Manage permissions in AWS.
+                    </div>
+                    <p class="technologies">Technologies Used: AWS, Docker, Terraform, Python, Bash, Ansible, Linux</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="role">
+                        DevOps Team Lead
+                    </div>
+                    <div class="company">
+                        Trader Interactive
+                        <span class="time">5/2018-6/2020</span>
+                    </div>
+                    <div class="details">Manage DevOps team workflow in Jira and assist with getting tickets moved through to completion.  
+                                        Build environments in AWS.  Redesign and harden networks.  Create a tool for managing SSH accounts across 
+                                        all systems using Ansible.  Create auto-scaling infrastructure in AWS and using Ansible which provisions 
+                                        instances and ensures they are ready for web traffic before adding them to the load balancer.  Oversee 
+                                        and assist with redesign of Jenkins environment to create nodes dynamically or utilize containers for a 
+                                        more cost effective and flexible CI/CD platform.  Automate creation and testing of updated AMIs (Amazon 
+                                        Machine Images) using Python and Chef.  Create infrastructure to serve as A/B testing routers using AWS 
+                                        and Nginx.  Automate tasks using Python, Ansible, Bash and Chef.  Serve as a member of the Engineering 
+                                        Steering Committee and the Standards Committee. Provide training to team members.  Respond to, troubleshoot, 
+                                        and mitigate on-call production events.  Use git, GitHub, and GitLab for managing code between multiple 
+                                        teams.  Manage users, groups and permissions on repositories in GitHub and GitLab.  Manage permissions in AWS.
+                    </div>
+                    <p class="technologies">Technologies Used: AWS, Docker, Terraform, Python, Bash, Ansible, Linux</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="role">
+                        DevOps Engineer
+                    </div>
+                    <div class="company">
+                        Trader Interactive
+                        <span class="time">12/2015-5/2018</span>
+                    </div>
+                    <div class="details">Build out environments in AWS and migrate existing infrastructure from VMWare and bare metal.  
+                                        Manage Linux and Windows systems.  Assist teams with projects by providing the necessary infrastructure, 
+                                        access and tools for deployment of, and updates to applications.  Manage Jenkins environment.  Manage DNS
+                                        for local and public domains.  Build out and implement a centralized logging platform using Graylog.  
+                                        Create a temporary solution for managing IP white-listing for employees.  Oversee and assist with setting 
+                                        up OpenVPN server to replace the existing white-listing solution.  Manage server configuration and 
+                                        application deployment using Chef.  Use git, GitHub, and GitLab for managing code between multiple teams.  
+                                        Manage users, groups and permissions on repositories in GitHub and GitLab.  Manage permissions in AWS.
+                    </div>
+                    <p class="technologies">Technologies Used: AWS, Docker, Python, Bash, Linux</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="role">
+                        DevOps Engineer
+                    </div>
+                    <div class="company">
+                        Dominion Enterprises
+                        <span class="time">10/2014-12/2015</span>
+                    </div>
+                    <div class="details">Manage Linux servers for several business units with the company.  Build and maintain Linux virtual
+                                        machines in VMware, AWS and Platform 9.  Server in on-call rotation to resolve after hours emergencies.  
+                                        Assist with setting up, testing and maintaining disaster recovery systems and procedures.  Manage DNS for
+                                        local and public domains.  Assist with setting up and maintaining the OpenStack based Platform 9 solution.  
+                                        Discover and mitigate security issues with vulnerable systems.  Manage GitHub Enterprise instance.
+                    </div>
+                    <p class="technologies">Technologies Used: AWS, Docker, VMWare, Platform 9, Bash, Linux</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="role">
+                        Senior Linux Systems Engineer
+                    </div>
+                    <div class="company">
+                        Enterprise Information Services, Inc
+                        <span class="time">7/2014-10/2014</span>
+                    </div>
+                    <div class="details">Manage server backups through the HP Data Protector application. Maintain and troubleshoot issues
+                                        pertaining to the ALMIS, AMMIS, and ATIMS applications, accounts, and host server hardware. Assist with the
+                                        rebuilding of the disaster recovery environment. Assist with migrating ALMIS production to a new location.
+                                        Participate in rotating on-call duty, ALMIS and ATIMS promotions, and routine server maintenance. Build,
+                                        configure, deploy, and maintain Linux and HP UX servers. Deploy/manage KVM-based workstations and
+                                        VMware-based servers. Manage the DNS records for the ALMIS domain.
+                    </div>
+                    <p class="technologies">Technologies Used: AWS, Docker, VMWare, Platform 9, Bash, Linux</p>
+                </div>
+
+
+                <div class="experience-item">
+                    <div class="role">
+                        Linux Systems Engineer
+                    </div>
+                    <div class="company">
+                        Enterprise Information Services, Inc
+                        <span class="time">7/2012-7/2014</span>
+                    </div>
+                    <div class="details">Participate in rotating on-call duty, ALMIS and ATIMS promotions, and routine server maintenance. Build,
+                                        configure, deploy, and maintain Linux servers. Deploy/manage KVM-based workstations and VMware-based
+                                        servers. Manage the DNS records for the ALMIS domain. Assist Client Services team as needed.
+                    </div>
+                    <p class="technologies">Technologies Used: AWS, Docker, VMWare, Platform 9, Bash, Linux</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="role">
+                        PC Systems Specialist
+                    </div>
+                    <div class="company">
+                        Enterprise Information Services, Inc
+                        <span class="time">3/2009-7/2012</span>
+                    </div>
+                    <div class="details">Build non-standard workstation and laptop images. Confer with end users to determine what types of
+                                        hardware and software are required. Train end users in the use of equipment and software. Install and
+                                        maintain hardware, software, and operating systems on the ALC LAN. Troubleshoot and repair problems.
+                                        Customize ruggedized laptops used to upload/download unclassified communications & HUD data to/from HH-
+                                        60 and HH-65 aircraft.
+                    </div>
+                    <p class="technologies">Technologies Used: Bash, Windows, Linux, Virtualbox, Norton Ghost</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="role">
+                        Help Desk Coordinator
+                    </div>
+                    <div class="company">
+                        Enterprise Information Services, Inc
+                        <span class="time">9/2007-3/2009</span>
+                    </div>
+                    <div class="details">As first point of contact, assist customers and employees via telephone, email, and in person. Triage desktop
+                                        problems to appropriate technical staff. Reset passwords for ALMIS, AMMIS and Heat users. Log, coordinate
+                                        and track requests using Heat call logging. Monitor computer room, recording temperatures, humidity and
+                                        other issues. Monitor server activities and network status, recording down time and contacting appropriate
+                                        technical staff.
+                    </div>
+                    <p class="technologies">Technologies Used: Bash, Windows, Solaris</p>
+                </div>
+        </section>
     </div>
   </div>
 </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<script src="http://localhost:4000/assets/javascript/toggleDark.js"></script>
+<script>
+  feather.replace()
+</script>
+</html>
