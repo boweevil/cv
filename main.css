@@ -187,7 +187,8 @@ body{
 .certifications .certifications-item .certificate{
   color:var(--fg-color-body);
   font-size:14px;
-  font-weight:bold
+  font-weight:bold;
+  text-align:left;
 }
 .certifications .certifications-item .date{
   color:var(--fg-color-body);
