@@ -198,6 +198,27 @@ body{
   color:var(--fg-color-body);
   font-size:12px
 }
+.training{
+  margin-bottom:20px
+}
+.training .title{
+  font-size:16px;
+  font-weight:700;
+  color:var(--fg-color)
+}
+.training .training-item{
+  margin-bottom:20px
+}
+.training .training-item .course{
+  color:var(--fg-color-body);
+  font-size:14px;
+  font-weight:bold;
+  text-align:left;
+}
+.training .training-item .date{
+  color:var(--fg-color-body);
+  font-size:14px
+}
 .education{
   margin-bottom:20px
 }
@@ -212,7 +233,8 @@ body{
 .education .education-item .degree{
   color:var(--fg-color-body);
   font-size:14px;
-  font-weight:bold
+  font-weight:bold;
+  text-align:left;
 }
 .education .education-item .university{
   color:var(--fg-color-body);
