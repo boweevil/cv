@@ -182,7 +182,8 @@ body{
   color:var(--fg-color)
 }
 .certifications .certifications-item{
-  margin-bottom:20px
+  margin-bottom:20px;
+  text-align:left;
 }
 .certifications .certifications-item .certificate{
   color:var(--fg-color-body);
@@ -199,7 +200,8 @@ body{
   font-size:12px
 }
 .training{
-  margin-bottom:20px
+  margin-bottom:20px;
+  text-align:left;
 }
 .training .title{
   font-size:16px;
@@ -238,11 +240,13 @@ body{
 }
 .education .education-item .university{
   color:var(--fg-color-body);
-  font-size:14px
+  font-size:14px;
+  text-align:left;
 }
 .education .education-item .time{
   color:var(--fg-color-body);
-  font-size:14px
+  font-size:14px;
+  text-align:left;
 }
 .skills{
   margin-bottom:20px
